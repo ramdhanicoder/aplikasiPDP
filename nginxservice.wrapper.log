@@ -1,0 +1,42 @@
+2018-03-01 12:14:23,327 INFO  - Starting ServiceWrapper in the CLI mode
+2018-03-01 12:14:33,260 INFO  - Completed. Exit code is 0
+2018-03-01 12:14:52,166 INFO  - Starting ServiceWrapper in the CLI mode
+2018-03-01 12:14:52,431 FATAL - WMI Operation failure: ServiceCannotAcceptControl
+WMI.WmiException: ServiceCannotAcceptControl
+   at WMI.WmiRoot.BaseHandler.CheckError(ManagementBaseObject result)
+   at WMI.WmiRoot.InstanceHandler.Invoke(Object proxy, MethodInfo method, Object[] args)
+   at winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   at winsw.WrapperService.Main(String[] args)
+2018-03-01 12:14:53,261 INFO  - Starting ServiceWrapper in the CLI mode
+2018-03-01 12:14:53,573 FATAL - WMI Operation failure: ServiceCannotAcceptControl
+WMI.WmiException: ServiceCannotAcceptControl
+   at WMI.WmiRoot.BaseHandler.CheckError(ManagementBaseObject result)
+   at WMI.WmiRoot.InstanceHandler.Invoke(Object proxy, MethodInfo method, Object[] args)
+   at winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   at winsw.WrapperService.Main(String[] args)
+2018-03-01 12:14:53,937 INFO  - Starting ServiceWrapper in the CLI mode
+2018-03-01 12:14:54,390 INFO  - Starting ServiceWrapper in the service mode
+2018-03-01 12:14:54,422 INFO  - Completed. Exit code is 0
+2018-03-01 12:14:54,484 INFO  - Starting C:\Users\Keropi\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\bin\nginx\nginx.exe  -p C:\Users\Keropi\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\bin\nginx 
+2018-03-01 12:14:54,484 INFO  - Starting C:\Users\Keropi\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\bin\nginx\nginx.exe  -p C:\Users\Keropi\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\bin\nginx 
+2018-03-01 12:14:55,578 INFO  - Started 10884
+2018-03-01 13:33:27,095 INFO  - Starting ServiceWrapper in the CLI mode
+2018-03-01 13:33:27,392 FATAL - WMI Operation failure: ServiceCannotAcceptControl
+WMI.WmiException: ServiceCannotAcceptControl
+   at WMI.WmiRoot.BaseHandler.CheckError(ManagementBaseObject result)
+   at WMI.WmiRoot.InstanceHandler.Invoke(Object proxy, MethodInfo method, Object[] args)
+   at winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   at winsw.WrapperService.Main(String[] args)
+2018-03-01 13:33:28,658 INFO  - Starting ServiceWrapper in the CLI mode
+2018-03-01 13:33:28,923 FATAL - WMI Operation failure: ServiceCannotAcceptControl
+WMI.WmiException: ServiceCannotAcceptControl
+   at WMI.WmiRoot.BaseHandler.CheckError(ManagementBaseObject result)
+   at WMI.WmiRoot.InstanceHandler.Invoke(Object proxy, MethodInfo method, Object[] args)
+   at winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   at winsw.WrapperService.Main(String[] args)
+2018-03-01 13:33:29,392 INFO  - Starting ServiceWrapper in the CLI mode
+2018-03-01 13:33:29,829 INFO  - Starting ServiceWrapper in the service mode
+2018-03-01 13:33:29,861 INFO  - Completed. Exit code is 0
+2018-03-01 13:33:29,861 INFO  - Starting C:\Users\Keropi\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\bin\nginx\nginx.exe  -p C:\Users\Keropi\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\bin\nginx 
+2018-03-01 13:33:29,876 INFO  - Starting C:\Users\Keropi\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\bin\nginx\nginx.exe  -p C:\Users\Keropi\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\bin\nginx 
+2018-03-01 13:33:32,548 INFO  - Started 10704

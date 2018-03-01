@@ -1,0 +1,44 @@
+2018-03-01 12:14:34,861 INFO  - Starting ServiceWrapper in the CLI mode
+2018-03-01 12:14:35,189 INFO  - Completed. Exit code is 0
+2018-03-01 12:14:35,596 INFO  - Starting ServiceWrapper in the CLI mode
+2018-03-01 12:14:35,942 FATAL - WMI Operation failure: ServiceCannotAcceptControl
+WMI.WmiException: ServiceCannotAcceptControl
+   at WMI.WmiRoot.BaseHandler.CheckError(ManagementBaseObject result)
+   at WMI.WmiRoot.InstanceHandler.Invoke(Object proxy, MethodInfo method, Object[] args)
+   at winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   at winsw.WrapperService.Main(String[] args)
+2018-03-01 12:14:36,457 INFO  - Starting ServiceWrapper in the CLI mode
+2018-03-01 12:14:36,895 INFO  - Starting ServiceWrapper in the service mode
+2018-03-01 12:14:36,942 INFO  - Completed. Exit code is 0
+2018-03-01 12:14:37,176 INFO  - Starting F:\Software\Xampp\php\php-cgi.exe -b 127.0.0.1:9001
+2018-03-01 12:14:37,192 INFO  - Starting F:\Software\Xampp\php\php-cgi.exe -b 127.0.0.1:9001
+2018-03-01 12:14:37,364 INFO  - Started 2060
+2018-03-01 12:57:00,519 INFO  - Stopping valet_phpfpm
+2018-03-01 12:57:00,863 DEBUG - ProcessKill 2060
+2018-03-01 12:57:08,144 WARN  - Failed to locate children of the process with PID=2060. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+   at winsw.Util.ProcessHelper.StopProcessAndChildren(Int32 pid, TimeSpan stopTimeout, Boolean stopParentProcessFirst)
+2018-03-01 12:57:12,363 INFO  - Stopping process 2060
+2018-03-01 12:57:12,363 INFO  - Send SIGINT 2060
+2018-03-01 12:57:12,378 INFO  - SIGINT to2060 successful
+2018-03-01 12:57:12,597 INFO  - Finished valet_phpfpm
+2018-03-01 12:57:13,363 INFO  - Completed. Exit code is 0
+2018-03-01 13:33:17,797 INFO  - Starting ServiceWrapper in the CLI mode
+2018-03-01 13:33:24,579 FATAL - WMI Operation failure: ServiceCannotAcceptControl
+WMI.WmiException: ServiceCannotAcceptControl
+   at WMI.WmiRoot.BaseHandler.CheckError(ManagementBaseObject result)
+   at WMI.WmiRoot.InstanceHandler.Invoke(Object proxy, MethodInfo method, Object[] args)
+   at winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   at winsw.WrapperService.Main(String[] args)
+2018-03-01 13:33:25,220 INFO  - Starting ServiceWrapper in the CLI mode
+2018-03-01 13:33:25,751 INFO  - Starting ServiceWrapper in the service mode
+2018-03-01 13:33:25,892 INFO  - Completed. Exit code is 0
+2018-03-01 13:33:26,751 INFO  - Starting F:\Software\Xampp\php\php-cgi.exe -b 127.0.0.1:9001
+2018-03-01 13:33:26,892 INFO  - Starting F:\Software\Xampp\php\php-cgi.exe -b 127.0.0.1:9001
+2018-03-01 13:33:27,408 INFO  - Started 2664
